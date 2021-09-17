@@ -29,6 +29,7 @@ public class LoteriaDosSonhosEx1 {
 
         listaLoteria.forEach((Integer, String) -> System.out.println("Chave: " + Integer + " Valor: " + String ));
         System.out.println("");
+
 //        listaStrings.forEach((Chave, Valor) -> System.out.println("Chave: " + Chave + " Valor: " + Valor));
 
         for(String chave : listaStrings.keySet()){
